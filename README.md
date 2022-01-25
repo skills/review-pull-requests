@@ -34,7 +34,7 @@ All great projects start with collaboration. Pull requests are the foundation of
 - **What you'll learn**: When and how to request a review; how to perform a review for someone else's pull request.
 - **What you'll build**: We'll be reviewing a pull request for a simple game.
 - **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests from [Introduction to GitHub](https://github.com/githublearn/introduction-to-github).
-- **How long**: This course is TBD steps and takes less than TBD.
+- **How long**: This course is TBD steps and takes less than 30 minutes.
 
 </details>
 
