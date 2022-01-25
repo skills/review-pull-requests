@@ -78,13 +78,13 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 
 Pull request reviews ensure quality and maintain momentum of changes to your project.
 
-When reviewing a pull request:
+#### When reviewing a pull request:
 
-1. Review the title and body of the pull request to understand the intended change.
+1. Review the _title_ and _body_ of the pull request to understand the intended change.
 1. Review the [diff](https://docs.github.com/en/get-started/quickstart/github-glossary#diff), the comparison of the proposed code, in the context of the whole project.
 1. For most things, try out the proposed change. Check if the actual change matches the intention. Find the [contributing guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) to find out how to review the changes.
 
-In your review comments:
+#### In your review comments:
 
 - Identify potential issues, risks, and limitations.
 - Suggest changes and improvements.
