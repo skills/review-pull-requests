@@ -5,11 +5,11 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-<img src=TBD_social_image width=300 align=right>
+<img src=https://repository-images.githubusercontent.com/149791379/3578a500-586d-11ea-9ac3-39087235fe44 width=300 align=right>
 
-# TBD course title
+# Reviewing pull requests
 
-_TBD course description_
+_See how collaboration works on GitHub and start building great things, together._
 
 <!--
   <<< Author notes: Start of the course >>>
@@ -23,17 +23,17 @@ _TBD course description_
 <details id=0 open>
 <summary><strong>:golf: Start</strong></summary>
 
-**To start this course: [<img width="150" alt="Use this template" src="https://user-images.githubusercontent.com/1221423/148581131-555c0fb8-5361-4450-a760-75fa6219a2fc.png">](https://github.com/githublearn/TBD/generate)**
+**To start this course: [<img width="150" alt="Use this template" src="https://user-images.githubusercontent.com/1221423/148581131-555c0fb8-5361-4450-a760-75fa6219a2fc.png">](https://github.com/githublearn/reviewing-pull-requests/generate)**
 
 > We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
 > After you make your own repository, wait about 20 seconds and refresh. I will go to the next step.
 
-TBD welcome paragraph
+All great projects start with collaboration. Pull requests are the foundation of teamwork on GitHub — and pull request reviews give you the ability to work together and discuss changes specific to a pull request by commenting, requesting changes, or approving.
 
-- **Who is this for**: TBD
-- **What you'll learn**: TBD
-- **What you'll build**: TBD
-- **Prerequisites**: TBD
+- **Who is this for**: Developers, new GitHub users, users new to Git, students, managers, teams.
+- **What you'll learn**: When and how to request a review; how to perform a review for someone else's pull request.
+- **What you'll build**: We'll be reviewing a pull request for a simple game.
+- **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests from [Introduction to GitHub](https://github.com/githublearn/introduction-to-github).
 - **How long**: This course is TBD steps and takes less than TBD.
 
 </details>
