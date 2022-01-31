@@ -7,7 +7,7 @@
 
 <img src=https://repository-images.githubusercontent.com/149791379/3578a500-586d-11ea-9ac3-39087235fe44 width=300 align=right>
 
-# Reviewing pull requests
+# Review pull requests
 
 _See how collaboration works on GitHub and start building great things, together._
 
@@ -23,7 +23,7 @@ _See how collaboration works on GitHub and start building great things, together
 <details id=0 open>
 <summary><strong>:golf: Start</strong></summary>
 
-**To start this course: [<img width="150" alt="Use this template" src="https://user-images.githubusercontent.com/1221423/148581131-555c0fb8-5361-4450-a760-75fa6219a2fc.png">](https://github.com/githublearn/reviewing-pull-requests/generate)**
+**To start this course: [<img width="150" alt="Use this template" src="https://user-images.githubusercontent.com/1221423/148581131-555c0fb8-5361-4450-a760-75fa6219a2fc.png">](https://github.com/githublearn/review-pull-requests/generate)**
 
 > We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
 > After you make your own repository, wait about 20 seconds and refresh. I will go to the next step.
@@ -32,7 +32,7 @@ All great projects start with collaboration. Pull requests are the foundation of
 
 - **Who is this for**: Developers, new GitHub users, users new to Git, students, managers, teams.
 - **What you'll learn**: When and how to request a review; how to perform a review for someone else's pull request.
-- **What you'll build**: We'll be reviewing a pull request for a simple game.
+- **What you'll build**: We'll be review a pull request for a simple game.
 - **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests from [Introduction to GitHub](https://github.com/githublearn/introduction-to-github).
 - **How long**: This course is 5 steps and takes less than 30 minutes.
 
@@ -49,7 +49,7 @@ All great projects start with collaboration. Pull requests are the foundation of
 <details id=1>
 <summary><strong>:monocle_face: Step 1: Assign yourself as a reviewer</strong></summary>
 
-### :wave: Welcome to "Reviewing pull requests"!
+### :wave: Welcome to "Review pull requests"!
 
 **What is a _pull request review_**: Reviewing a pull request is an opportunity to examine another contributor's changes. It's an awesome opportunity to learn more about how the project works and how others solve problems.
 
