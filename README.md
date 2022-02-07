@@ -34,7 +34,7 @@ All great projects start with collaboration. Pull requests are the foundation of
 - **What you'll learn**: When and how to request a review; how to perform a review for someone else's pull request.
 - **What you'll build**: We'll be review a pull request for a simple game.
 - **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests from [Introduction to GitHub](https://github.com/githublearn/introduction-to-github).
-- **How long**: This course is 5 steps and takes less than 30 minutes.
+- **How long**: This course is five steps long and takes less than 30 minutes to complete.
 
 </details>
 
@@ -49,7 +49,7 @@ All great projects start with collaboration. Pull requests are the foundation of
 <details id=1>
 <summary><strong>:monocle_face: Step 1: Assign yourself as a reviewer</strong></summary>
 
-### :wave: Welcome to "Review pull requests"!
+### Welcome to "Review pull requests"! :wave:
 
 **What is a _pull request review_**: Reviewing a pull request is an opportunity to examine another contributor's changes. It's an awesome opportunity to learn more about how the project works and how others solve problems.
 
@@ -74,7 +74,7 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 <details id=2>
 <summary><strong>:white_check_mark: Step 2: Leave a review</strong></summary>
 
-### :tada: You did assigned yourself as a reviewer!
+### You did assigned yourself as a reviewer! :tada:
 
 Pull request reviews ensure quality and maintain momentum of changes to your project.
 
@@ -143,7 +143,7 @@ Now that you have explored the different ways you can review a pull request it i
 <details id=4>
 <summary><strong>:leaves: Step 4: Apply suggested changes</strong></summary>
 
-### Nicely done suggesting changes! :sparkles:
+### Nicely done suggesting changes! :partying_face:
 
 Now lets see how easy it is to [apply your suggestion](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)!
 
@@ -165,7 +165,7 @@ Now lets see how easy it is to [apply your suggestion](https://docs.github.com/e
 <details id=5>
 <summary><strong>:shipit: Step 5: Merge your pull request</strong></summary>
 
-### :heart: Almost there!
+### Almost there! :heart:
 
 You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your pull request!
 
@@ -202,7 +202,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
 
 - Try adding a [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) file to your project to automatically assign reviewers to pull requests.
 - We'd love to hear what you thought of this course [in our community forum](https://github.community/c/education/github-learning-lab/34).
-- [Take another GitHub Learn Course](https://github.com/githublearn).
+- [Take another GitHub Learn course](https://github.com/githublearn).
 - [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
