@@ -66,7 +66,7 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 
 <!--
   <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the first step.
+  Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
   Historic note: this step combines the commend, approve, and needs changes steps from the previous version.
 -->
@@ -109,7 +109,7 @@ When an approval or request for changes is not yet needed, consider using **comm
 
 <!--
   <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the first step.
+  Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
@@ -136,7 +136,7 @@ Now that you have explored the different ways you can review a pull request it i
 
 <!--
   <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the first step.
+  Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
@@ -158,7 +158,7 @@ Now lets see how easy it is to [apply your suggestion](https://docs.github.com/e
 
 <!--
   <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the first step.
+  Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
