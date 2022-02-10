@@ -125,6 +125,7 @@ Now that you have explored the different ways you can review a pull request it i
 ### :keyboard: Activity: Suggest changes
 
 1. On the pull request, click **Files changed**.
+1. Find the `index.html` changes.
 1. Hover your cursor next to the line numbers on the left side of the page.
 1. Click the blue plus icon.
 1. After the commment form appears, click the **Insert a suggestion** button.
