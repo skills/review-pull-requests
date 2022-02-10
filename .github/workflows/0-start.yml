@@ -15,7 +15,10 @@ on:
 permissions:
   # Need `contents: read` to checkout the repository
   # Need `contents: write` to update the step metadata
+  # Need `pull-requests: write` to create a pull request
+
   contents: write
+  pull-requests: write
 
 jobs:
   on_start:
@@ -38,8 +41,40 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches
 
-      # TBD Include any additional set up steps here
-      # tbd create add-game branch, add some code/text to review
+      # Create update-game branch, update game, and create pull request for the learner
+      - name: Prepare a branch and pull request
+        run: |
+          echo "Make sure we are on step 0"
+          if [ "$(cat .github/script/STEP)" != 0 ]
+          then
+            echo "Current step is not 0"
+            exit 0
+          fi
+
+          echo "Make a branch"
+          BRANCH=update-game
+          git checkout -b $BRANCH
+
+          echo "Update index.html"
+          sed -i.bak 's/Game over/Game over, refresh to play again 🧑‍💻 🤖!/' index.html
+
+          echo "Make a commit"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add index.html
+          git commit --message="Update game over message"
+
+          echo "Push"
+          git push --set-upstream origin $BRANCH
+
+          echo "Make a pull request"
+          # Reference https://cli.github.com/manual/gh_pr_create
+          gh pr create --title "Update the game over message" --body "Update the game over message so people know how to play again!"
+
+          echo "Restore main"
+          git checkout main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Update README to close <details id=0>
       # and open <details id=1>
@@ -50,4 +85,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FROM_STEP: 0
           TO_STEP: 1
-          BRANCH_NAME: TBD
+          BRANCH_NAME: update-game
