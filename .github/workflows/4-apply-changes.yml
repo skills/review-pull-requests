@@ -1,14 +1,16 @@
 name: Step 4, Apply changes
 
-# This step triggers after TBD
+# This step triggers after the user applies the pull request suggested change
 # This step sets STEP to 5
 # This step closes <details id=4> and opens <details id=5>
 
-# This will run every time we TBD
+# This will run every time we push to the `update-game branch`
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  TBD:
+  push:
+    branches:
+      - update-game
 
 permissions:
   # Need `contents: read` to checkout the repository
@@ -16,8 +18,8 @@ permissions:
   contents: write
 
 jobs:
-  on_TBD:
-    name: On TBD
+  on_apply_suggested_change:
+    name: On apply suggested change 
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
@@ -35,8 +37,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Let's get all the branches
-
-      # TBD include any further steps here
+          ref: update-game
 
       # Update README to close <details id=4>
       # and open <details id=5>
@@ -47,4 +48,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FROM_STEP: 4
           TO_STEP: 5
-          BRANCH_NAME: TBD
+          BRANCH_NAME: update-game 

@@ -1,14 +1,16 @@
 name: Step 2, Leave a review
 
-# This step triggers after TBD
+# This step triggers after the user leaves a pull request review
 # This step sets STEP to 3
 # This step closes <details id=2> and opens <details id=3>
 
-# This will run every time we TBD
+# This will run every time we leave a pull request review 
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  TBD:
+  pull_request_review:
+    types:
+      - submitted
 
 permissions:
   # Need `contents: read` to checkout the repository
@@ -16,8 +18,8 @@ permissions:
   contents: write
 
 jobs:
-  on_TBD:
-    name: On TBD
+  on_leave_review:
+    name: On leave review 
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
@@ -35,8 +37,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Let's get all the branches
-
-      # TBD include any further steps here
+          ref: update-game
 
       # Update README to close <details id=2>
       # and open <details id=3>
@@ -47,4 +48,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FROM_STEP: 2
           TO_STEP: 3
-          BRANCH_NAME: TBD
+          BRANCH_NAME: update-game 

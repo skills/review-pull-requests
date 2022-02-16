@@ -31,9 +31,9 @@ _See how collaboration works on GitHub and start building great things, together
 All great projects start with collaboration. Pull requests are the foundation of teamwork on GitHub — and pull request reviews give you the ability to work together and discuss changes specific to a pull request by commenting, requesting changes, or approving.
 
 - **Who is this for**: Developers, new GitHub users, users new to Git, students, managers, teams.
-- **What you'll learn**: When and how to request a review; how to perform a review for someone else's pull request.
-- **What you'll build**: We'll be review a pull request for a simple game.
-- **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests from [Introduction to GitHub](https://github.com/githublearn/introduction-to-github).
+- **What you'll learn**: When and how to request a review; how to provide a review of someone else's pull request.
+- **What you'll build**: We'll be reviewing a pull request for a simple game.
+- **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests—you can learn this in our [Introduction to GitHub](https://github.com/githublearn/introduction-to-github) course.
 - **How long**: This course is five steps long and takes less than 30 minutes to complete.
 
 </details>
@@ -51,15 +51,15 @@ All great projects start with collaboration. Pull requests are the foundation of
 
 ### Welcome to "Review pull requests"! :wave:
 
-**What is a _pull request review_**: Reviewing a pull request is an opportunity to examine another contributor's changes. It's an awesome opportunity to learn more about how the project works and how others solve problems.
+**What is a _pull request review_?**: Reviewing a pull request is an opportunity to examine another contributor's changes and give them feedback. It's an awesome opportunity to learn more about how the project works and how others solve problems.
 
 The best way to get a review is to ask for one. On GitHub, you can ask someone to review a pull request by assigning them as a reviewer. If you are not ready for review, consider [creating a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) instead.
 
 ### :keyboard: Activity: Assign yourself as a reviewer
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. We made a pull request for you from the `add-game` branch, so open that pull request.
-1. Under **Reviewers** on the right side of the screen, add yourself.
+1. We made a pull request for you from the `update-game` branch, so open that pull request.
+1. Under **Reviewers** on the right side of the screen, add yourself as a reviewer.
 1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
@@ -74,27 +74,28 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 <details id=2>
 <summary><strong>:white_check_mark: Step 2: Leave a review</strong></summary>
 
-### You did assigned yourself as a reviewer! :tada:
+### You assigned yourself as a reviewer! :tada:
 
 Pull request reviews ensure quality and maintain momentum of changes to your project.
 
 #### When reviewing a pull request:
 
-1. Review the _title_ and _body_ of the pull request to understand the intended change.
+1. Review the _title_ and _body_ of the pull request, and possibly any associated issue, to understand the intended change. 
 1. Review the [diff](https://docs.github.com/en/get-started/quickstart/github-glossary#diff), the comparison of the proposed code, in the context of the whole project.
-1. For most things, try out the proposed change. Check if the actual change matches the intention. Find the [contributing guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) to find out how to review the changes.
+1. For most things, try out the proposed change. Check if the actual change matches the intention. Find the repository's [contributing guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) to find out how to review the changes.
 
 #### In your review comments:
 
 - Identify potential issues, risks, and limitations.
 - Suggest changes and improvements.
-- Share awareness of upcoming changes with individuals and teams.
+- Share awareness of upcoming changes that the pull request doesn't account for.
 - Ask questions to verify shared understanding.
+- Highlight what the author did well and should keep doing.
 - Prioritize the most important feedback.
 - Be concise _and_ provide meaningful detail.
-- Treat the pull request author with empathy.
+- Treat the pull request author with kindness and empathy.
 
-When an approval or request for changes is not yet needed, consider using **comments**. An **approval** lets the author know you believe the pull request is safe to merge. **Request changes** lets the author know you believe the pull request is not ready to merge.
+When an approval or request for changes is not yet needed, consider using **comments**. An **approval** lets the author know you believe the pull request is safe to merge. **Requesting changes** lets the author know you believe the pull request is not ready to merge.
 
 ### :keyboard: Activity: Leave a review
 
@@ -120,11 +121,12 @@ When an approval or request for changes is not yet needed, consider using **comm
 
 Now that you have explored the different ways you can review a pull request it is time to learn how to use _suggest changes_.
 
-**What is _suggest changes_**: This feature enables you to recommend a change to a pull request that the author can commit with the push of a button.
+**What is _suggest changes_?**: This feature enables you to recommend a change to a pull request that the author can commit with the push of a button.
 
 ### :keyboard: Activity: Suggest changes
 
 1. On the pull request, click **Files changed**.
+1. Find the `index.html` changes.
 1. Hover your cursor next to the line numbers on the left side of the page.
 1. Click the blue plus icon.
 1. After the commment form appears, click the **Insert a suggestion** button.
@@ -145,12 +147,12 @@ Now that you have explored the different ways you can review a pull request it i
 
 ### Nicely done suggesting changes! :partying_face:
 
-Now lets see how easy it is to [apply your suggestion](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)!
+Now let's see how easy it is to [apply your suggestion](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request).
 
 ### :keyboard: Activity: Apply suggested changes
 
 1. Click **Commit suggestion**.
-1. Enter a commit message.
+1. Type a commit message.
 1. Click **Commit changes**.
 1. Wait about 20 seconds then refresh this page for the next step.
 
@@ -172,7 +174,7 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 ### :keyboard: Activity: Merge your pull request
 
 1. Click **Merge pull request**.
-1. Delete the branch `add-game` (optional).
+1. Delete the branch `update-game` (optional).
 1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
