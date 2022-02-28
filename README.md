@@ -21,10 +21,11 @@ _See how collaboration works on GitHub and start building great things, together
 -->
 
 <details id=0 open>
-<summary><strong>:golf: Start</strong></summary>
+<summary><h2>:golf: Start</h2></summary>
 
-### [![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/githublearn/review-pull-requests/generate)
+[![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/githublearn/review-pull-requests/generate)
 
+> When you select **Start course** or **Use this template**, you will be prompted to create a new repository.
 > We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).<br>
 > After you make your own repository, wait about 20 seconds and refresh. I will go to the next step.
 
@@ -47,9 +48,9 @@ All great projects start with collaboration. Pull requests are the foundation of
 -->
 
 <details id=1>
-<summary><strong>:monocle_face: Step 1: Assign yourself as a reviewer</strong></summary>
+<summary><h2>:monocle_face: Step 1: Assign yourself as a reviewer</h2></summary>
 
-### Welcome to "Review pull requests"! :wave:
+_Welcome to "Review pull requests"! :wave:_
 
 **What is a _pull request review_?**: Reviewing a pull request is an opportunity to examine another contributor's changes and give them feedback. It's an awesome opportunity to learn more about how the project works and how others solve problems.
 
@@ -72,9 +73,9 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 -->
 
 <details id=2>
-<summary><strong>:white_check_mark: Step 2: Leave a review</strong></summary>
+<summary><h2>:white_check_mark: Step 2: Leave a review</h2></summary>
 
-### You assigned yourself as a reviewer! :tada:
+_You assigned yourself as a reviewer! :tada:_
 
 Pull request reviews ensure quality and maintain momentum of changes to your project.
 
@@ -115,9 +116,9 @@ When an approval or request for changes is not yet needed, consider using **comm
 -->
 
 <details id=3>
-<summary><strong>:information_desk_person: Step 3: Suggest changes</strong></summary>
+<summary><h2>:information_desk_person: Step 3: Suggest changes</h2></summary>
 
-### Nice work reviewing that pull request :sparkles:
+_Nice work reviewing that pull request :sparkles:_
 
 Now that you have explored the different ways you can review a pull request it is time to learn how to use _suggest changes_.
 
@@ -143,9 +144,9 @@ Now that you have explored the different ways you can review a pull request it i
 -->
 
 <details id=4>
-<summary><strong>:leaves: Step 4: Apply suggested changes</strong></summary>
+<summary><h2>:leaves: Step 4: Apply suggested changes</h2></summary>
 
-### Nicely done suggesting changes! :partying_face:
+_Nicely done suggesting changes! :partying_face:_
 
 Now let's see how easy it is to [apply your suggestion](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request).
 
@@ -165,9 +166,9 @@ Now let's see how easy it is to [apply your suggestion](https://docs.github.com/
 -->
 
 <details id=5>
-<summary><strong>:shipit: Step 5: Merge your pull request</strong></summary>
+<summary><h2>:shipit: Step 5: Merge your pull request</h2></summary>
 
-### Almost there! :heart:
+_Almost there! :heart:_
 
 You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your pull request!
 
@@ -185,9 +186,9 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 -->
 
 <details id=X>
-<summary><strong>:checkered_flag: Finish</strong></summary>
+<summary><h2>:checkered_flag: Finish</h2></summary>
 
-### Congratulations friend, you've completed this course!
+_Congratulations friend, you've completed this course!_
 
 <img src=https://octodex.github.com/images/hula_loop_octodex03.gif alt=celebrate width=300 align=right>
 
