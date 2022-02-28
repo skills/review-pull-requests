@@ -166,7 +166,7 @@ Now let's see how easy it is to [apply your suggestion](https://docs.github.com/
 -->
 
 <details id=5>
-<summary><h2>:shipit: Step 5: Merge your pull request</h2></summary>
+<summary><h2>:squirrel: Step 5: Merge your pull request</h2></summary>
 
 _Almost there! :heart:_
 
