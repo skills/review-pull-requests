@@ -7,7 +7,7 @@
 
 # Review pull requests
 
-_See how collaboration works on GitHub and start building great things, together._
+_Collaborate and work together on GitHub._
 
 <!--
   <<< Author notes: Start of the course >>>
