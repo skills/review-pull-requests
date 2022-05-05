@@ -5,8 +5,6 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-<img src=https://user-images.githubusercontent.com/1221423/156946952-d79e8736-c5c4-47b5-a13b-19c46f8b7948.svg width=300 align=right>
-
 # Review pull requests
 
 _See how collaboration works on GitHub and start building great things, together._
@@ -21,7 +19,7 @@ _See how collaboration works on GitHub and start building great things, together
 -->
 
 <details id=0 open>
-<summary><h2>:golf: Start</h2></summary>
+<summary><h2>Start</h2></summary>
 
 [![start-course](https://user-images.githubusercontent.com/1221423/154366775-5491926f-9ed1-4a4a-a229-0810c0ed7e5e.svg)](https://github.com/skills/review-pull-requests/generate)
 
@@ -48,7 +46,7 @@ All great projects start with collaboration. Pull requests are the foundation of
 -->
 
 <details id=1>
-<summary><h2>:monocle_face: Step 1: Assign yourself as a reviewer</h2></summary>
+<summary><h2>Step 1: Assign yourself as a reviewer</h2></summary>
 
 _Welcome to "Review pull requests"! :wave:_
 
@@ -73,7 +71,7 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 -->
 
 <details id=2>
-<summary><h2>:white_check_mark: Step 2: Leave a review</h2></summary>
+<summary><h2>Step 2: Leave a review</h2></summary>
 
 _You assigned yourself as a reviewer! :tada:_
 
@@ -116,7 +114,7 @@ When an approval or request for changes is not yet needed, consider using **comm
 -->
 
 <details id=3>
-<summary><h2>:information_desk_person: Step 3: Suggest changes</h2></summary>
+<summary><h2>Step 3: Suggest changes</h2></summary>
 
 _Nice work reviewing that pull request :sparkles:_
 
@@ -144,7 +142,7 @@ Now that you have explored the different ways you can review a pull request it i
 -->
 
 <details id=4>
-<summary><h2>:leaves: Step 4: Apply suggested changes</h2></summary>
+<summary><h2>Step 4: Apply suggested changes</h2></summary>
 
 _Nicely done suggesting changes! :partying_face:_
 
@@ -166,7 +164,7 @@ Now let's see how easy it is to [apply your suggestion](https://docs.github.com/
 -->
 
 <details id=5>
-<summary><h2>:chipmunk: Step 5: Merge your pull request</h2></summary>
+<summary><h2>Step 5: Merge your pull request</h2></summary>
 
 _Almost there! :heart:_
 
@@ -186,7 +184,7 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 -->
 
 <details id=X>
-<summary><h2>:checkered_flag: Finish</h2></summary>
+<summary><h2>Finish</h2></summary>
 
 _Congratulations friend, you've completed this course!_
 
