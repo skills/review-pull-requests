@@ -62,7 +62,6 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 1. We made a pull request for you from the `update-game` branch, so open that pull request.
 1. Under **Reviewers** on the right side of the screen, add yourself as a reviewer.
-1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -106,7 +105,6 @@ When an approval or request for changes is not yet needed, consider using **comm
 1. Add a comment with your initial thoughts on the pull request.
 1. Select _comment_, _approve_, or _request changes_: any option will work.
 1. Click **Submit review**.
-1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -134,7 +132,6 @@ Now that you have explored the different ways you can review a pull request it i
 1. After the commment form appears, click the **Insert a suggestion** button.
 1. Edit the suggestion.
 1. Click **Add a single comment**.
-1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -156,7 +153,6 @@ Now let's see how easy it is to [apply your suggestion](https://docs.github.com/
 1. Click **Commit suggestion**.
 1. Type a commit message.
 1. Click **Commit changes**.
-1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
@@ -177,7 +173,6 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 
 1. Click **Merge pull request**.
 1. Delete the branch `update-game` (optional).
-1. Wait about 20 seconds then refresh this page for the next step.
 
 </details>
 
