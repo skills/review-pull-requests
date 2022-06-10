@@ -63,6 +63,8 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 1. We made a pull request for you from the `update-game` branch, so open that pull request.
 1. Under **Reviewers** on the right side of the screen, add yourself as a reviewer.
 
+Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
+
 </details>
 
 <!--
@@ -106,6 +108,8 @@ When an approval or request for changes is not yet needed, consider using **comm
 1. Select _comment_, _approve_, or _request changes_: any option will work.
 1. Click **Submit review**.
 
+Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
+
 </details>
 
 <!--
@@ -133,6 +137,8 @@ Now that you have explored the different ways you can review a pull request it i
 1. Edit the suggestion.
 1. Click **Add a single comment**.
 
+Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
+
 </details>
 
 <!--
@@ -154,6 +160,8 @@ Now let's see how easy it is to [apply your suggestion](https://docs.github.com/
 1. Type a commit message.
 1. Click **Commit changes**.
 
+Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
+
 </details>
 
 <!--
@@ -173,6 +181,8 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 
 1. Click **Merge pull request**.
 1. Delete the branch `update-game` (optional).
+
+Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
 
 </details>
 
