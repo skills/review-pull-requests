@@ -137,6 +137,9 @@ Now that you have explored the different ways you can review a pull request it i
 1. Edit the suggestion.
 1. Click **Add a single comment**.
 
+The **Add a suggestion** button is shown below.
+{% octicon file-diff height:16 %}
+
 Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
 
 </details>
