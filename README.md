@@ -133,7 +133,8 @@ Now that you have explored the different ways you can review a pull request it i
 1. Find the `index.html` changes.
 1. Hover your cursor next to the line numbers on the left side of the page.
 1. Click the blue plus icon.
-1. After the commment form appears, click the **Insert a suggestion** button.
+1. After the comment form appears, click the **Add a suggestion** button. <br>
+![add-a-suggestion-button](https://user-images.githubusercontent.com/97056108/184449714-61e8ee51-824a-48c1-9436-2dfd67f2c070.png)
 1. Edit the suggestion.
 1. Click **Add a single comment**.
 
