@@ -42,7 +42,7 @@ jobs:
       # Update README to close <details id=3> and open <details id=4>
       # and set STEP to '4'
       - name: Update to step 4
-        uses: skills/action-update-step@v1
+        uses: ./.github/workflows/update-step
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 3

@@ -8,9 +8,6 @@ name: Step 0, Start
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 # Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -78,7 +75,7 @@ jobs:
       # Update README to close <details id=0> and open <details id=1>
       # and set STEP to '1'
       - name: Update to step 1
-        uses: skills/action-update-step@v1
+        uses: ./.github/workflows/update-step
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 0

@@ -8,9 +8,8 @@ name: Step 5, Merge your pull request
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [closed]
 
 # Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -41,7 +40,7 @@ jobs:
       # Update README to close <details id=5> and open <details id=X>
       # and set STEP to 'X'
       - name: Update to step X
-        uses: skills/action-update-step@v1
+        uses: ./.github/workflows/update-step
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 5
