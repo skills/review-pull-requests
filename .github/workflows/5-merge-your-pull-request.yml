@@ -1,16 +1,15 @@
 name: Step 5, Merge your pull request
 
-# This step triggers after a pull requst is merged to `main`
+# This step triggers after a pull requst is closed or merged
 # This step sets STEP to X
 # This step closes <details id=5> and opens <details id=X>
 
-# This will run every time we create push a commit to `main`
+# This will run every time we close or merge a pull request
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [closed]
 
 # Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -41,7 +40,7 @@ jobs:
       # Update README to close <details id=5> and open <details id=X>
       # and set STEP to 'X'
       - name: Update to step X
-        uses: skills/action-update-step@v1
+        uses: ./.github/workflows/update-step
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 5

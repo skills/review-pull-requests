@@ -1,0 +1,80 @@
+name: "Update step"
+description: "Update the course repository when the learner completes a step."
+inputs:
+  token:
+    description: "Set to [secrets.GITHUB_TOKEN]."
+    required: true
+  from_step:
+    description: "Requires the STEP file set to FROM_STEP."
+    required: true
+  to_step:
+    description: "The step number to go to next."
+    required: true
+  branch_name:
+    description: "If the learner is working in a branch, add the branch name."
+  base_branch_name:
+    description: "Optional name of the base branch (default: main)."
+    required: false
+    default: "main"
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        echo "Check that all required env variables are set"
+        if [ -z "$TO_STEP" ]
+        then
+          echo "TO_STEP is unset or set to the empty string"
+          exit 1
+        fi
+        if [ -z "$FROM_STEP" ]
+        then
+          echo "FROM_STEP is unset or set to the empty string"
+          exit 1
+        fi
+        if [ -z "$GITHUB_TOKEN" ]
+        then
+          echo "GITHUB_TOKEN is unset or set to the empty string"
+          exit 1
+        fi
+
+        echo "Make sure we are on the base branch ($BASE_BRANCH_NAME)"
+        git checkout $BASE_BRANCH_NAME
+
+        echo "Check that we are on FROM_STEP"
+        if [ "$(cat .github/script/STEP)" != $FROM_STEP ]
+        then
+          echo "Current step is not $FROM_STEP"
+          exit 0
+        fi
+
+        echo "Remove 'open' from any <details> tags"
+        sed -i.tmp -r 's/<details id=([0-9X]+) open>/<details id=\1>/g' README.md
+
+        echo "Add 'open' to step TO_STEP"
+        sed -i.tmp -r "s/<details id=$TO_STEP>/<details id=$TO_STEP open>/g" README.md
+
+        echo "Update all HTML comments to hide everything"
+        sed -i.tmp -r 's/<!--step([0-9X]+)-->/<!--step\1/g' README.md
+        sed -i.tmp -r 's/<!--endstep([0-9X]+)-->/endstep\1-->/g' README.md
+
+        echo "Show the current TO_STEP"
+        sed -i.tmp -r "s/<\!--step$TO_STEP/<\!--step$TO_STEP-->/g" README.md
+        sed -i.tmp -r "s/endstep$TO_STEP-->/<\!--endstep$TO_STEP-->/g" README.md
+
+        echo "Update the STEP file to TO_STEP"
+        echo "$TO_STEP" > .github/script/STEP
+
+        echo "Commit the files, and push to base branch"
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add README.md
+        git add .github/script/STEP
+        git commit --message="Update to $TO_STEP in STEP and README.md"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ inputs.token }}
+        FROM_STEP: ${{ inputs.from_step }}
+        TO_STEP: ${{ inputs.to_step }}
+        BRANCH_NAME: ${{ inputs.branch_name }}
+        BASE_BRANCH_NAME: ${{ inputs.base_branch_name }}
