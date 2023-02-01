@@ -36,7 +36,14 @@ All great projects start with collaboration. Pull requests are the foundation of
    - For owner, choose your personal account or an organization to host the repository.
    - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+3. Open and follow the step-by-step instructions from the new repository's README. *(The links in steps below only work from the README of the new repository)*
+3. Open [this link](../../settings/actions), tick the checkbox beside *'Allow GitHub Actions to create and approve pull requests'*, and click the save button below it.
+
+   ![Change actions setting](./images/actions-setting.png)
+4. Open [this link](../../actions/workflows/0-start.yml), click Run workflow, and again Run workflow.
+
+   ![Run workflow](./images/run-workflow.png)
+5. Wait about 20 seconds, refresh this README page and continue following the step-by-step instructions.
 
 <!--endstep0-->
 
