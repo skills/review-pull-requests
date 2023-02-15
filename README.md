@@ -89,11 +89,10 @@ _Great job opening that pull request! :wave:_
 
 The best way to get a review is to ask for one. On GitHub, you can ask someone to review a pull request by assigning them as a reviewer or assignee. If you are not ready for review, consider [creating a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) instead.
 
-### :keyboard: Activity: Assign yourself as a reviewer
+### :keyboard: Activity: Assign yourself
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. We made a pull request for you from the `update-game` branch, so open that pull request.
-1. Under **Assignees** on the right side of the screen, add yourself as a reviewer.
+1. Open the pull request you just created.
+1. Under **Assignees** on the right side of the screen, add yourself.
 
 Because you created the pull request, you can't assign yourself as a reviewer, but feel free to assign a friend as a reviewer instead to see how it works :smile:
 
@@ -111,7 +110,7 @@ Next, wait about 20 seconds for actions to run, then refresh this course's READM
 <details id=3>
 <summary><h2>Step 3: Leave a review</h2></summary>
 
-_You assigned yourself as a reviewer! :tada:_
+_You assigned yourself! :tada:_
 
 Pull request reviews ensure quality and maintain momentum of changes to your project.
 
