@@ -95,7 +95,7 @@ The best way to get a review is to ask for one. On GitHub, you can ask someone t
 1. We made a pull request for you from the `update-game` branch, so open that pull request.
 1. Under **Assignees** on the right side of the screen, add yourself as a reviewer.
 
-Because you created the pull request, you can't assign yourself as a reviewer, but feel free to assign a friend to see how it works :smile:
+Because you created the pull request, you can't assign yourself as a reviewer, but feel free to assign a friend as a reviewer instead to see how it works :smile:
 
 Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
 
@@ -139,7 +139,7 @@ When an approval or request for changes is not yet needed, consider using **comm
 1. On the pull request, click **Files changed**.
 1. Click **Review changes**.
 1. Add a comment with your initial thoughts on the pull request.
-1. Select _comment_ or _request changes_: either option will work. You won't be able to _approve_ your own pull request.
+1. Select _comment_. You won't be able to _approve_ or _request changes_ to your own pull request.
 1. Click **Submit review**.
 
 Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
