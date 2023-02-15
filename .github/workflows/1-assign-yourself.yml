@@ -21,6 +21,7 @@ permissions:
 jobs:
   on_assigned_reviewer:
     name: On assigned reviewer 
+    needs: get_current_step
 
     # We will only run this action when:
     # 1. This repository isn't the template repository

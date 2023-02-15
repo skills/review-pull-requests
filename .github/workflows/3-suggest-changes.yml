@@ -21,6 +21,7 @@ permissions:
 jobs:
   on_review_comment:
     name: On review comment 
+    needs: get_current_step
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
