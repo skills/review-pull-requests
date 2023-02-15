@@ -1,16 +1,16 @@
-name: Step 4, Apply changes
+name: Step 4, Suggest changes
 
-# This step triggers after the user applies the pull request suggested change
+# This step triggers after the user leaves a review comment 
 # This step sets STEP to 5
 # This step closes <details id=4> and opens <details id=5>
 
-# This will run every time we push to the `update-game branch`
+# This will run every time we leave a review comment 
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - update-game
+  pull_request_review_comment:
+    types:
+      - created
 
 # Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -26,15 +26,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - id: get_step
         run: |
           echo "current_step=$(cat ./.github/script/STEP)" >> $GITHUB_OUTPUT
     outputs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
-  on_apply_suggested_change:
-    name: On apply suggested change 
+  on_review_comment:
+    name: On review comment 
     needs: get_current_step
 
     # We will only run this action when:
@@ -52,7 +52,7 @@ jobs:
     steps:
       # We'll need to check out the repository so that we can edit the README
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Let's get all the branches
           ref: update-game

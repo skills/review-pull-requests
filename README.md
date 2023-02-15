@@ -50,19 +50,24 @@ All great projects start with collaboration. Pull requests are the foundation of
 -->
 
 <details id=1>
-<summary><h2>Step 1: Assign yourself as a reviewer</h2></summary>
+<summary><h2>Step 1: Open a pull request</h2></summary>
 
 _Welcome to "Review pull requests"! :wave:_
 
-**What is a _pull request review_?**: Reviewing a pull request is an opportunity to examine another contributor's changes and give them feedback. It's an awesome opportunity to learn more about how the project works and how others solve problems.
+Let's get started by opening a pull request.
 
-The best way to get a review is to ask for one. On GitHub, you can ask someone to review a pull request by assigning them as a reviewer. If you are not ready for review, consider [creating a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) instead.
+**What is a pull request?**: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request is going to keep the changes you just made on your branch and propose applying them to the `main` branch.
 
-### :keyboard: Activity: Assign yourself as a reviewer
+### :keyboard: Activity: Create a pull request
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. We made a pull request for you from the `update-game` branch, so open that pull request.
-1. Under **Reviewers** on the right side of the screen, add yourself as a reviewer.
+1. Click on the **Pull requests** tab in your repository.
+2. Click **New pull request**.
+3. In the **base:** dropdown, make sure **main** is selected.
+4. Select the **compare:** dropdown, and click `update-branch`.
+5. Click **Create pull request**.
+6. Enter a title for your pull request: `Update the game over message`.
+7. Enter a description for your pull request: `Update the game over message so people know how to play again!`
+8. Click **Create pull request**.
 
 Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
 
@@ -76,7 +81,35 @@ Next, wait about 20 seconds for actions to run, then refresh this course's READM
 -->
 
 <details id=2>
-<summary><h2>Step 2: Leave a review</h2></summary>
+<summary><h2>Step 2: Assign yourself</h2></summary>
+
+_Great job opening that pull request! :wave:_
+
+**What is a _pull request review_?**: Reviewing a pull request is an opportunity to examine another contributor's changes and give them feedback. It's an awesome opportunity to learn more about how the project works and how others solve problems.
+
+The best way to get a review is to ask for one. On GitHub, you can ask someone to review a pull request by assigning them as a reviewer or assignee. If you are not ready for review, consider [creating a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) instead.
+
+### :keyboard: Activity: Assign yourself as a reviewer
+
+1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
+1. We made a pull request for you from the `update-game` branch, so open that pull request.
+1. Under **Assignees** on the right side of the screen, add yourself as a reviewer.
+
+Because you created the pull request, you can't assign yourself as a reviewer, but feel free to assign a friend to see how it works :smile:
+
+Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
+
+</details>
+
+<!--
+  <<< Author notes: Step 3 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  Historic note: this step combines the commend, approve, and needs changes steps from the previous version.
+-->
+
+<details id=3>
+<summary><h2>Step 3: Leave a review</h2></summary>
 
 _You assigned yourself as a reviewer! :tada:_
 
@@ -106,7 +139,7 @@ When an approval or request for changes is not yet needed, consider using **comm
 1. On the pull request, click **Files changed**.
 1. Click **Review changes**.
 1. Add a comment with your initial thoughts on the pull request.
-1. Select _comment_, _approve_, or _request changes_: any option will work.
+1. Select _comment_ or _request changes_: either option will work. You won't be able to _approve_ your own pull request.
 1. Click **Submit review**.
 
 Next, wait about 20 seconds for actions to run, then refresh this course's README (the one you're following instructions from) and a [GitHub Action](https://docs.github.com/en/actions) will automatically close this step and open the next one.
@@ -114,13 +147,13 @@ Next, wait about 20 seconds for actions to run, then refresh this course's READM
 </details>
 
 <!--
-  <<< Author notes: Step 3 >>>
+  <<< Author notes: Step 4 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
-<details id=3>
-<summary><h2>Step 3: Suggest changes</h2></summary>
+<details id=4>
+<summary><h2>Step 4: Suggest changes</h2></summary>
 
 _Nice work reviewing that pull request :sparkles:_
 
@@ -144,13 +177,13 @@ Next, wait about 20 seconds for actions to run, then refresh this course's READM
 </details>
 
 <!--
-  <<< Author notes: Step 4 >>>
+  <<< Author notes: Step 5 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
-<details id=4>
-<summary><h2>Step 4: Apply suggested changes</h2></summary>
+<details id=5>
+<summary><h2>Step 5: Apply suggested changes</h2></summary>
 
 _Nicely done suggesting changes! :partying_face:_
 
@@ -167,13 +200,13 @@ Next, wait about 20 seconds for actions to run, then refresh this course's READM
 </details>
 
 <!--
-  <<< Author notes: Step 5 >>>
+  <<< Author notes: Step 6 >>>
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
-<details id=5>
-<summary><h2>Step 5: Merge your pull request</h2></summary>
+<details id=6>
+<summary><h2>Step 6: Merge your pull request</h2></summary>
 
 _Almost there! :heart:_
 

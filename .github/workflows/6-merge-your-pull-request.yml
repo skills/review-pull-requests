@@ -1,16 +1,16 @@
-name: Step 3, Suggest changes
+name: Step 6, Merge your pull request
 
-# This step triggers after the user leaves a review comment 
-# This step sets STEP to 4
-# This step closes <details id=3> and opens <details id=4>
+# This step triggers after a pull requst is merged to `main`
+# This step sets STEP to X
+# This step closes <details id=6> and opens <details id=X>
 
-# This will run every time we leave a review comment 
+# This will run every time we create push a commit to `main`
 # Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  pull_request_review_comment:
-    types:
-      - created
+  push:
+    branches:
+      - main
 
 # Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -33,18 +33,18 @@ jobs:
     outputs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
-  on_review_comment:
-    name: On review comment 
+  on_merge:
+    name: On merge
     needs: get_current_step
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
-    # 2. The STEP is currently 3
+    # 2. The STEP is currently 6
     # Reference https://docs.github.com/en/actions/learn-github-actions/contexts
     # Reference https://docs.github.com/en/actions/learn-github-actions/expressions
     if: >-
       ${{ !github.event.repository.is_template
-          && needs.get_current_step.outputs.current_step == 3 }}
+          && needs.get_current_step.outputs.current_step == 6 }}
 
     # We'll run Ubuntu for performance instead of Mac or Windows
     runs-on: ubuntu-latest
@@ -55,14 +55,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Let's get all the branches
-          ref: update-game
 
-      # Update README to close <details id=3> and open <details id=4>
-      # and set STEP to '4'
-      - name: Update to step 4
+      # Update README to close <details id=6> and open <details id=X>
+      # and set STEP to 'X'
+      - name: Update to step X
         uses: skills/action-update-step@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 3
-          to_step: 4
+          from_step: 6
+          to_step: X
           branch_name: update-game
