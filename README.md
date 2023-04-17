@@ -63,7 +63,7 @@ Let's get started by opening a pull request.
 1. Click on the **Pull requests** tab in your repository.
 2. Click **New pull request**.
 3. In the **base:** dropdown, make sure **main** is selected.
-4. Select the **compare:** dropdown, and click `update-branch`.
+4. Select the **compare:** dropdown, and click `update-game`.
 5. Click **Create pull request**.
 6. Enter a title for your pull request: `Update the game over message`.
 7. Enter a description for your pull request: `Update the game over message so people know how to play again!`
