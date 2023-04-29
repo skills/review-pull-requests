@@ -134,7 +134,7 @@
     gameOver.hidden = false
     for (const input of inputs) {
       input.removeEventListener('click', handleClickInput)
-      input.remove()
+      input.disabled=true;
     }
   }
 
