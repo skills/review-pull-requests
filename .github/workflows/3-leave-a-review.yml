@@ -32,7 +32,7 @@ jobs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
   on_leave_review:
-    name: On leave review 
+    name: On leave review
     needs: get_current_step
 
     # We will only run this action when:

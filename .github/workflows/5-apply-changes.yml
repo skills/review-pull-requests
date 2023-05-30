@@ -32,7 +32,7 @@ jobs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
   on_apply_suggested_change:
-    name: On apply suggested change 
+    name: On apply suggested change
     needs: get_current_step
 
     # We will only run this action when:
