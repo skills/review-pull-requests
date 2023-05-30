@@ -1,25 +1,24 @@
 name: Step 5, Apply changes
 
 # This step triggers after the user applies the pull request suggested change
-# This step sets STEP to 6
-# This step closes <details id=5> and opens <details id=6>
+# This workflow updates from step 5 to step 6.
 
 # This will run every time we push to the `update-game branch`
-# Reference https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
+# Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
   push:
     branches:
       - update-game
 
-# Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
+# Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
   # Need `contents: read` to checkout the repository
   # Need `contents: write` to update the step metadata
   contents: write
 
 jobs:
-  # Get the current step from .github/script/STEP so we can
+  # Get the current step from .github/steps/-step.txt so we can
   # limit running the main job when the learner is on the same step.
   get_current_step:
     name: Check current step number
@@ -29,7 +28,7 @@ jobs:
         uses: actions/checkout@v3
       - id: get_step
         run: |
-          echo "current_step=$(cat ./.github/script/STEP)" >> $GITHUB_OUTPUT
+          echo "current_step=$(cat ./.github/steps/-step.txt)" >> $GITHUB_OUTPUT
     outputs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
@@ -39,9 +38,9 @@ jobs:
 
     # We will only run this action when:
     # 1. This repository isn't the template repository
-    # 2. The STEP is currently 5
-    # Reference https://docs.github.com/en/actions/learn-github-actions/contexts
-    # Reference https://docs.github.com/en/actions/learn-github-actions/expressions
+    # 2. The step is currently 5
+    # Reference: https://docs.github.com/en/actions/learn-github-actions/contexts
+    # Reference: https://docs.github.com/en/actions/learn-github-actions/expressions
     if: >-
       ${{ !github.event.repository.is_template
           && needs.get_current_step.outputs.current_step == 5 }}
@@ -57,10 +56,9 @@ jobs:
           fetch-depth: 0 # Let's get all the branches
           ref: update-game
 
-      # Update README to close <details id=5> and open <details id=6>
-      # and set STEP to '6'
-      - name: Update to step 6
-        uses: skills/action-update-step@v1
+      # In README.md, switch step 5 for step 6.
+            - name: Update to step 6
+        uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 5
