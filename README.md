@@ -1,6 +1,7 @@
 <header>
 
 <!--
+segunda alteração na alternativas
   commit na alternativa
   obrigado - joao
   <<< Author notes: Course header >>>
