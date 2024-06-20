@@ -2,6 +2,9 @@
 <meta charset="UTF-8" />
 
 <style>
+  /* 
+  comment added by dweenmd
+  General body, table cell, and input styles */
   body,
   td,
   input {
@@ -18,6 +21,7 @@
   table {
     margin: 5rem auto;
   }
+  /* Dark mode styles */
   @media (prefers-color-scheme: dark) {
     body,
     input {
@@ -30,6 +34,7 @@
 <h1>Tic Tac Toe</h1>
 
 <table>
+  <!-- Tic Tac Toe board with checkboxes -->
   <tr>
     <td><input type="checkbox" /></td>
     <td><input type="checkbox" /></td>
@@ -50,7 +55,7 @@
 <h2 hidden>Game over</h2>
 
 <script>
-  // Initialization
+  // Initialization of game elements
   const boxes = Array.from(document.querySelectorAll("td"));
   const inputs = Array.from(document.querySelectorAll("[type=checkbox]"));
   const rows = [1, 2, 3].map((n) =>
@@ -79,17 +84,17 @@
   const HUMAN = "🧑‍💻";
   const ROBOT = "🤖";
 
-  // Decide who goes first
+  // Randomly decide if the robot takes the first turn
   if (Math.random() > 0.5) {
     runRobotTurn();
   }
 
-  // Handle when a user clicks an input
+  // Add event listeners to handle user clicks on the inputs
   for (const input of inputs) {
     input.addEventListener("click", handleClickInput);
   }
 
-  // The user chose a box, check for win, robot turn, check for win
+  // Handle the user's click input
   function handleClickInput(evt) {
     evt.target.closest("td").innerHTML = HUMAN;
     if (hasWin()) {
@@ -101,7 +106,7 @@
     }
   }
 
-  // Choose a random available box
+  // Execute the robot's turn
   function runRobotTurn() {
     const robotBoxes = shuffle(boxes);
     while (robotBoxes.length) {
@@ -113,7 +118,7 @@
     }
   }
 
-  // Determine win
+  // Check if there is a winning condition
   function hasWin() {
     return (
       rows.some(hasAllSame) ||
@@ -122,14 +127,14 @@
     );
   }
 
-  // Determine if every cell matches
+  // Check if all elements in an array are the same
   function hasAllSame(arr) {
     return arr.every(
       (td) => !td.querySelector("input") && td.innerHTML === arr[0].innerHTML
     );
   }
 
-  // Display game over, cancel events
+  // End the game by displaying the game over message and disabling further inputs
   function endGame() {
     gameOver.hidden = false;
     for (const input of inputs) {
@@ -138,7 +143,7 @@
     }
   }
 
-  // Shuffle a copy of the input array
+  // Shuffle an array
   function shuffle(array) {
     array = array.slice(0);
     for (let i = array.length - 1; i > 0; i--) {
