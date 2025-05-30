@@ -1,9 +1,9 @@
 name: Step 4
 
 on:
-  pull_request_review_comment:
-    types:
-      - created
+  push:
+    branches:
+      - update-game
 
 permissions:
   contents: write
