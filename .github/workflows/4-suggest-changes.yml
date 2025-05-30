@@ -11,7 +11,7 @@ permissions:
   issues: write
 
 env:
-  STEP_5_FILE: ".github/steps/5-apply-changes.md"
+  STEP_5_FILE: ".github/steps/5-merge-your-pull-request.md"
 
 jobs:
   find_exercise:

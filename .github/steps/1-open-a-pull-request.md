@@ -2,18 +2,41 @@
 
 _Welcome to "Review pull requests"! :wave:_
 
-Let's get started by opening a pull request.
+Let's get started by opening a pull request on some changes that were recently added to the the `update-game` branch.
 
-**What is a pull request?**: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request is going to keep the changes you just made on your branch and propose applying them to the `main` branch.
+### What is a pull request?
+
+A **pull request** is a collaboration area where work in one branch is reviewed before merging it into another branch. It has 4 tabs to manage the conversation and easily review changes.
+
+- **Conversation** - A general log of the pull request activity. It also provides open space fellow collaborators and the community to provide ideas, suggestions, and general feedback.
+- **Committs** - A list of only the commits unique to the proposed branch.
+- **Checks** - The results of any automations applied to the pull request using [GitHub Actions](https://github.com/features/actions). That's for another lesson though. 😎
+- **Files Changed** - A [Diff](https://docs.github.com/en/get-started/quickstart/github-glossary#diff) view that easily shows the proposed changes in a before/after view. It also options to add comments and reviews in context.
+
+> [!TIP]
+> You can [create a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for unfinished work. This can help avoid accidental merges or premature reviews.
 
 ### :keyboard: Activity: Create a pull request
 
-1. Click on the **Pull requests** tab in your repository.
-2. Click **New pull request**.
-3. In the **base:** dropdown, make sure **main** is selected.
-4. Select the **compare:** dropdown, and click `update-game`.
-5. Click **Create pull request**.
-6. Enter a title for your pull request: `Update the game over message`.
-7. Enter a description for your pull request: `Update the game over message so people know how to play again!`
-8. Click **Create pull request**.
-9. With the pull request created, Mona will check your progress then prepare and share the next steps.
+1. In the top navigation, select the **Pull requests** tab.
+
+1. On the right, click the **New pull request** button.
+
+1. Under the **Compare changes** area, select the following options and click the **Create pull request** button.
+
+   - **base:** `main`
+   - **compare:** `update-game`
+
+1. Set the **title** and **description** to the following.
+
+   ```md
+   Update the game over message
+   ```
+
+   ```md
+   Update the game over message so people know how to play again!
+   ```
+
+1. Click **Create pull request**.
+
+1. With the pull request created, Mona will check your progress and share the next steps.

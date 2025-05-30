@@ -2,15 +2,29 @@
 
 _You assigned yourself! :tada:_
 
-Pull request reviews ensure quality and maintain momentum of changes to your project.
+#### What is a pull request review?
 
-#### When reviewing a pull request:
+A **pull request review** is feedback from other collaborators or community members on the proposed changes. It helps ensure quality and project momentum. Even more importantly, it's an awesome opportunity to learn more about the project and grow as a developer by seeing how others approach the problem.
 
-1. Review the _title_ and _body_ of the pull request, and possibly any associated issue, to understand the intended change.
-1. Review the [diff](https://docs.github.com/en/get-started/quickstart/github-glossary#diff), the comparison of the proposed code, in the context of the whole project.
-1. For most things, try out the proposed change. Check if the actual change matches the intention. Find the repository's [contributing guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) to find out how to review the changes.
+Naturally, the best way to get a review is to ask for one. By assigning a reviewer they get 3 options for providing feedback:
 
-#### In your review comments:
+- **Comment** - General feedback without approval or rejection.
+- **Approve** - Allows merging if [rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets), [code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners), or other policies are enforced.
+- **Request Changes** - The proposed changes need continued work and review should be re-requested.
+
+The **Files changed** tab is the primary place for collecting feedback. It allows for adding comments directly to lines before submitting a review.
+
+### What does a review typically loook like?
+
+1. Reviewing the **title** and **description** are clear and concise. It should easily convey the intended changes and any associated issues.
+
+1. Reviewing the **Files changed** tab to ensure all proposed code matches the description.
+
+1. For most things, try out the proposed change to verify the they matche the intention.
+
+1. Use the repository's [contributing guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) for any guidance on review requirements, testing, quality verification, etc.
+
+#### Review ideas
 
 - Identify potential issues, risks, and limitations.
 - Suggest changes and improvements.
@@ -21,13 +35,22 @@ Pull request reviews ensure quality and maintain momentum of changes to your pro
 - Be concise _and_ provide meaningful detail.
 - Treat the pull request author with kindness and empathy.
 
-When an approval or request for changes is not yet needed, consider using **comments**. An **approval** lets the author know you believe the pull request is safe to merge. **Requesting changes** lets the author know you believe the pull request is not ready to merge.
-
 ### :keyboard: Activity: Leave a review
 
-1. On the pull request, click **Files changed**.
-1. Click **Review changes**.
-1. Add a comment with your initial thoughts on the pull request.
-1. Select _comment_. You won't be able to _approve_ or _request changes_ to your own pull request.
-1. Click **Submit review**.
-1. With the review submitted, Mona will check your progress then prepare and share the next steps.
+1. On the pull request, click the **Files changed** tab.
+
+1. Take a moment to review the change.
+
+   - Notice the change is a simple wording adjustment.
+
+1. Above the comparison view, click the **Review changes** button.
+
+1. Enter the following comment and click the **Submit review** button.
+
+   ```md
+   Looks good to me. I think this is more intuitive. Nice work!
+   ```
+
+   > 🪧 **Note:** You can't choose **Approve** or **Request changes** because your created the pull request.
+
+1. With your review submitted, Mona will check your progress and share the next steps.

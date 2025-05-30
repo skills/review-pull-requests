@@ -1,4 +1,4 @@
-name: Step 6
+name: Step 5
 
 on:
   pull_request:

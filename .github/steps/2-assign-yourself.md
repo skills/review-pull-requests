@@ -2,15 +2,15 @@
 
 _Great job opening that pull request! :wave:_
 
-**What is a _pull request review_?**: Reviewing a pull request is an opportunity to examine another contributor's changes and give them feedback. It's an awesome opportunity to learn more about how the project works and how others solve problems.
+#### What is an assignee?
 
-The best way to get a review is to ask for one. On GitHub, you can ask someone to review a pull request by assigning them as a reviewer or assignee. If you are not ready for review, consider [creating a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) instead.
+A **pull request assignee** is the person (or persons) most familiar with the the proposed changes.
+It's a simple mechanism for keeping track of who to contact for questions.
 
 ### :keyboard: Activity: Assign yourself
 
-1. Open the pull request you just created.
-1. Under **Assignees** on the right side of the screen, add yourself.
+1. If not on the created pull request, navigate back to it.
 
-   Because you created the pull request, you can't assign yourself as a reviewer, but feel free to assign a friend as a reviewer instead to see how it works :smile:
+1. On the right side, under **Assignees**, click the **assign yourself** text.
 
-1. With the pull request assigned, Mona will check your progress then prepare and share the next steps.
+1. After assigning yourself, Mona will check your progress and share the next steps.

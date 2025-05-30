@@ -1,16 +1,21 @@
 # Review pull requests
 
-_Collaborate and work together on GitHub._
+_Colaborate with others to refine your work and get suggestions before merging._
 
 ## Welcome
 
-All great projects start with collaboration. Pull requests are the foundation of teamwork on GitHub — and pull request reviews give you the ability to work together and discuss changes specific to a pull request by commenting, requesting changes, or approving.
+All great projects start with collaboration, and pull requests are the foundation of teamwork on GitHub. They give you the ability to asynchronously work together and refine work by commenting, requesting changes, and approving.
 
-- **Who is this for**: Developers, new GitHub users, users new to Git, students, managers, teams.
-- **What you'll learn**: When and how to request a review; how to provide a review of someone else's pull request.
-- **What you'll build**: We'll be reviewing a pull request for a simple game.
-- **Prerequisites**: We assume you are familiar with creating branches, commits, and pull requests—you can learn this in our [Introduction to GitHub](https://github.com/skills/introduction-to-github) course.
-- **How long**: This course takes less than 30 minutes to complete.
+- **Who is this for**: Technical Developers, Non-Technical collaborators, students, managers.
+- **What you'll learn**:
+  - How to request a review and assign it.
+  - How to provide a review for someone else's work.
+  - How to suggest changes and approve changes.
+- **What you'll build**: We'll review a pull request for a simple game.
+- **Prerequisites**: We assume you are familiar with content from the [Introduction to GitHub](https://github.com/skills/introduction-to-github) exercise.
+  - Commits
+  - Creating branches and pull requests
+- **How long**: less than 30 minutes
 
 In this course, you will:
 
