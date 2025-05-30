@@ -1,6 +1,6 @@
 ## Step 6: Merge your pull request
 
-_Almost there!_ :heart:
+_Almost done!_ :heart:
 
 With our reviews collected and feedback implemented, it's time to merge the changes.
 

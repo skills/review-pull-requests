@@ -14,7 +14,7 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
 
 1. Find the comparison view for the `index.html` file and find the modified line.
 
-1. Hover your cursor next to the line numbers on the left side of the page.
+1. Hover your cursor next to the line numbers of the modified line.
 
 1. Click the plus icon to review an inline comment form.
 
@@ -28,7 +28,6 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
    ```suggestion
    <h2 hidden>Game over! Want to play again?! Just click refresh. 🧑‍🚀!</h2>
    ```
-
    Let's make it a bit more friendly. 🤓
    ````
 
@@ -37,5 +36,9 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
 1. Click the **Commit suggestion** button to open a form for adding a commit message.
 
 1. Enter the following commit message and click the **Commit changes** button.
+
+   ```markdown
+   Make the end game experience more friendly.
+   ```
 
 1. With the changes committed, Mona will check your progress then prepare and share the next steps.

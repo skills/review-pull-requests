@@ -30,7 +30,7 @@ A **pull request** is a collaboration area where work in one branch is reviewed 
 1. Set the **title** and **description** to the following.
 
    ```md
-   Update the game over message
+   Update game over message
    ```
 
    ```md

@@ -51,6 +51,6 @@ The **Files changed** tab is the primary place for collecting feedback. It allow
    Looks good to me. I think this is more intuitive. Nice work!
    ```
 
-   > 🪧 **Note:** You can't choose **Approve** or **Request changes** because your created the pull request.
+   > 🪧 **Note:** You can't choose **Approve** or **Request changes** on your own pull request.
 
 1. With your review submitted, Mona will check your progress and share the next steps.
