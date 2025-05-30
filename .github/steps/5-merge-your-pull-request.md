@@ -8,7 +8,7 @@ With our reviews collected and feedback implemented, it's time to merge the chan
 
 1. In the pull request navigation, select the **Conversation** tab.
 
-1. Scroll down and click the **Merge** button.
+1. Scroll down and click the **Merge pull request** button.
 
 1. (optional) Delete the `update-game` branch.
 

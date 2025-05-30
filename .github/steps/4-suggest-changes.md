@@ -12,11 +12,11 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
 
 1. On the pull request, click **Files changed**.
 
-1. Find the comparison view for the `index.html` file and find the modified line.
+1. Find the comparison view for the `index.html` file.
 
-1. Hover your cursor next to the line numbers of the modified line.
+1. Hover your cursor next to the line numbers for the modified line.
 
-1. Click the plus icon to review an inline comment form.
+1. Click the plus icon to show an inline comment form.
 
 1. Click the **Add a suggestion** button to insert a modifiable copy of the line.
 
@@ -33,12 +33,12 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
 
 ### :keyboard: Activity: Apply a suggested change
 
-1. Click the **Commit suggestion** button to open a form for adding a commit message.
+1. Click the **Commit suggestion** button to open a commit message form.
 
-1. Enter the following commit message and click the **Commit changes** button.
+1. Edit the commit message to the below text and click the **Commit changes** button.
 
    ```markdown
-   Make the end game experience more friendly.
+   Make the end game experience more friendly
    ```
 
 1. With the changes committed, Mona will check your progress then prepare and share the next steps.
