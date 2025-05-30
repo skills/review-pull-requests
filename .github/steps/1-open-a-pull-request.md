@@ -1,11 +1,3 @@
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
 ## Step 1: Open a pull request
 
 _Welcome to "Review pull requests"! :wave:_
@@ -24,4 +16,4 @@ Let's get started by opening a pull request.
 6. Enter a title for your pull request: `Update the game over message`.
 7. Enter a description for your pull request: `Update the game over message so people know how to play again!`
 8. Click **Create pull request**.
-9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+9. With the pull request created, Mona will check your progress then prepare and share the next steps.

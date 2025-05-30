@@ -1,10 +1,3 @@
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: this step combines the commend, approve, and needs changes steps from the previous version.
--->
-
 ## Step 3: Leave a review
 
 _You assigned yourself! :tada:_
@@ -37,4 +30,4 @@ When an approval or request for changes is not yet needed, consider using **comm
 1. Add a comment with your initial thoughts on the pull request.
 1. Select _comment_. You won't be able to _approve_ or _request changes_ to your own pull request.
 1. Click **Submit review**.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. With the review submitted, Mona will check your progress then prepare and share the next steps.

@@ -1,9 +1,3 @@
-<!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
 ## Step 4: Suggest changes
 
 _Nice work reviewing that pull request :sparkles:_
@@ -22,4 +16,4 @@ Now that you have explored the different ways you can review a pull request it i
    ![add-a-suggestion-button](https://user-images.githubusercontent.com/97056108/184449714-61e8ee51-824a-48c1-9436-2dfd67f2c070.png)
 1. Edit the suggestion.
 1. Click **Add a single comment**.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. With commented added, Mona will check your progress then prepare and share the next steps.
