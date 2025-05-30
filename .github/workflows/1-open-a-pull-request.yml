@@ -21,7 +21,7 @@ jobs:
 
   post_next_step_content:
     name: Post next step content
-    needs: [find_exercise, check_step_work]
+    needs: [find_exercise]
     runs-on: ubuntu-latest
     env:
       ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
