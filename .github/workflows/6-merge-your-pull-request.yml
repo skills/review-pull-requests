@@ -1,9 +1,11 @@
 name: Step 6
 
 on:
-  push:
+  pull_request:
     branches:
       - main
+    types:
+      - closed
 
 permissions:
   contents: write
@@ -24,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       !github.event.repository.is_template &&
-      github.head_ref == 'start-blog' &&
+      github.head_ref == 'update-game' &&
       github.event.pull_request.merged == true
     env:
       ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
