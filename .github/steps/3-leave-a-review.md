@@ -20,7 +20,7 @@ The **Files changed** tab is the primary place for collecting feedback. It allow
 
 1. Reviewing the **Files changed** tab to ensure all proposed code matches the description.
 
-1. For most things, try out the proposed change to verify the they matche the intention.
+1. For most things, try out the proposed change to verify the they match the intention.
 
 1. Use the repository's [contributing guide](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) for any guidance on review requirements, testing, quality verification, etc.
 
