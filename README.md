@@ -17,7 +17,7 @@ All great projects start with collaboration, and pull requests are the foundatio
   - Creating branches and pull requests
 - **How long**: less than 30 minutes
 
-In this course, you will:
+In this exercise, you will:
 
 1. Open a pull request
 2. Assign yourself
@@ -26,7 +26,7 @@ In this course, you will:
 5. Apply changes
 6. Merge your pull request
 
-### How to start this course
+### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
