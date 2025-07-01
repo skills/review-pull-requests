@@ -2,7 +2,7 @@
 
 _Nice work reviewing that pull request :sparkles:_
 
-While reviewing, it is very common to find simple changes that are easier to implement than to describe. For example typos or rewording sentences. These are perfect situations for the **Add a suggestion** feature.
+While reviewing, it is very common to find simple changes that are easier to implement than to describe. For example, typos or rewording sentences. These are perfect situations for the **Add a suggestion** feature.
 
 ### How do I suggest a change?
 
@@ -41,4 +41,4 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
    Make the end game experience more friendly
    ```
 
-1. With the changes committed, Mona will check your progress then prepare and share the next steps.
+1. With the changes committed, Mona will check your progress and share the next steps.

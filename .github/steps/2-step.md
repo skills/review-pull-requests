@@ -4,12 +4,12 @@ _Great job opening that pull request! :wave:_
 
 #### What is an assignee?
 
-A **pull request assignee** is the person (or persons) most familiar with the the proposed changes.
+A **pull request assignee** is the person (or persons) most familiar with the proposed changes.
 It's a simple mechanism for keeping track of who to contact for questions.
 
 ### :keyboard: Activity: Assign yourself
 
-1. If not on the created pull request, navigate back to it.
+1. Navigate back to the created pull request if you are not on it.
 
 1. On the right side, under **Assignees**, click the **assign yourself** text.
 

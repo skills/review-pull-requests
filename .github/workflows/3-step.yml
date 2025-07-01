@@ -11,7 +11,7 @@ permissions:
   issues: write
 
 env:
-  STEP_4_FILE: ".github/steps/4-suggest-changes.md"
+  STEP_4_FILE: ".github/steps/4-step.md"
 
 jobs:
   find_exercise:

@@ -1,9 +1,10 @@
-name: Step 4
+name: Step 1
 
 on:
-  push:
-    branches:
-      - update-game
+  pull_request:
+    types:
+      - opened
+      - reopened
 
 permissions:
   contents: write
@@ -11,7 +12,7 @@ permissions:
   issues: write
 
 env:
-  STEP_5_FILE: ".github/steps/5-merge-your-pull-request.md"
+  STEP_2_FILE: ".github/steps/2-step.md"
 
 jobs:
   find_exercise:
@@ -39,7 +40,7 @@ jobs:
       - name: Create comment - add step content
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body-file "$STEP_5_FILE"
+            --body-file "$STEP_2_FILE"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -52,7 +53,7 @@ jobs:
 
       - name: Disable current workflow and enable next one
         run: |
-          gh workflow disable "Step 4"
-          gh workflow enable "Step 5"
+          gh workflow disable "Step 1"
+          gh workflow enable "Step 2"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

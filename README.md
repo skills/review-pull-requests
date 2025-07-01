@@ -1,6 +1,6 @@
 # Review pull requests
 
-_Colaborate with others to refine your work and get suggestions before merging._
+_Collaborate with others to refine your work and get suggestions before merging._
 
 ## Welcome
 
