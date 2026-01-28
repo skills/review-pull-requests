@@ -4,7 +4,8 @@
 <style>
   body,
   td,
-  input {
+  input,
+  button {
     font-size: 24px;
     line-height: 1.5;
     text-align: center;
@@ -48,6 +49,7 @@
 </table>
 
 <h2 hidden>Game over</h2>
+<button id="play-again" hidden>Play again</button>
 
 <script>
   // Initialization
@@ -76,6 +78,7 @@
     )
   );
   const gameOver = document.querySelector("h2");
+  const playAgainBtn = document.getElementById("play-again");
   const HUMAN = "🧑‍💻";
   const ROBOT = "🤖";
 
@@ -89,15 +92,24 @@
     input.addEventListener("click", handleClickInput);
   }
 
+  // Play again: reload the page to reset state
+  playAgainBtn.addEventListener("click", () => window.location.reload());
+
   // The user chose a box, check for win, robot turn, check for win
   function handleClickInput(evt) {
     evt.target.closest("td").innerHTML = HUMAN;
     if (hasWin()) {
-      return endGame();
+      return endGame("human");
+    }
+    if (hasDraw()) {
+      return endGame("draw");
     }
     runRobotTurn();
     if (hasWin()) {
-      return endGame();
+      return endGame("robot");
+    }
+    if (hasDraw()) {
+      return endGame("draw");
     }
   }
 
@@ -122,6 +134,11 @@
     );
   }
 
+  // Determine draw (no more available inputs)
+  function hasDraw() {
+    return !document.querySelector("td input[type=checkbox]");
+  }
+
   // Determine if every cell matches
   function hasAllSame(arr) {
     return arr.every(
@@ -130,8 +147,18 @@
   }
 
   // Display game over, cancel events
-  function endGame() {
+  function endGame(result) {
+    if (result === "draw") {
+      gameOver.textContent = "Game over: Draw";
+    } else if (result === "human") {
+      gameOver.textContent = "Game over: You win";
+    } else if (result === "robot") {
+      gameOver.textContent = "Game over: Robot wins";
+    }
     gameOver.hidden = false;
+    playAgainBtn.hidden = false;
+    // Move focus to the button for quick replay
+    playAgainBtn.focus();
     for (const input of inputs) {
       input.removeEventListener("click", handleClickInput);
       input.remove();
