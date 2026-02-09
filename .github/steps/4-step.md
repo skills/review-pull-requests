@@ -6,7 +6,7 @@ While reviewing, it is very common to find simple changes that are easier to imp
 
 ### How do I suggest a change?
 
-The **Add a suggestion** feature is a button in the comment text editor. It inserts a specially formatted code block. Instead of only showing a comment, GitHub will also provide a **Commit changes** button. This allows the author to accept the suggestion and commit it with the push of a button. No need to open a code editor! Nice!
+The **Add a suggestion** feature is a button in the comment text editor. It inserts a specially formatted code block. Instead of only showing a comment, GitHub will also provide a **Commit suggestion** button. This allows the author to accept the suggestion and commit it with the push of a button. No need to open a code editor! Nice!
 
 ### :keyboard: Activity: Suggest changes
 
