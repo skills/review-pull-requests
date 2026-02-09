@@ -22,7 +22,7 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
 
    <img width="300" alt="add-a-suggestion-button" src="https://github.com/user-attachments/assets/dc781d29-d5fe-4da9-9e4b-eb406c5d9ab5" />
 
-1. Edit the suggestion to match below and click the **Add a single comment** button.
+1. Edit the suggestion to match below and click the **Comment** button.
 
    ````md
    ```suggestion
@@ -33,7 +33,9 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
 
 ### :keyboard: Activity: Apply a suggested change
 
-1. Click the **Commit suggestion** button to open a commit message form.
+1. In the pull request navigation, select the **Conversation** tab. 
+
+1. Scroll down and click the **Commit suggestion** button to open a commit message form.
 
 1. Edit the commit message to the below text and click the **Commit changes** button.
 
