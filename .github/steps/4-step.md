@@ -33,7 +33,7 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
 
 ### :keyboard: Activity: Apply a suggested change
 
-1. In the pull request navigation, select the **Conversation** tab. 
+1. In the pull request navigation, select the **Conversation** tab.
 
 1. Scroll down and click the **Commit suggestion** button to open a commit message form.
 
