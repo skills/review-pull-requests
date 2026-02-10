@@ -18,7 +18,7 @@ jobs:
     if: |
       !github.event.repository.is_template
     name: Start Exercise
-    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.5.0
+    uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@v0.8.1
     with:
       exercise-title: "Review Pull Requests"
       intro-message: "Let's learn to collaborate with others using pull requests."
@@ -65,6 +65,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Get response templates
         uses: actions/checkout@v4
