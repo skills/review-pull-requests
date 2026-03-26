@@ -43,7 +43,7 @@ The **Files changed** tab is the primary place for collecting feedback. It allow
 
    - Notice the change is a simple wording adjustment.
 
-1. Above the comparison view, click the **Review changes** button.
+1. Above the comparison view, click the **Submit review** button.
 
 1. Enter the following comment and click the **Submit review** button.
 
