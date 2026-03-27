@@ -49,7 +49,3 @@ If the exercise isn't ready in 20 seconds:
    - If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
 
 </details>
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
