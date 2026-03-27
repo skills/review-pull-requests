@@ -15,7 +15,7 @@ Here's a recap of all the tasks you've accomplished in your repository:
 
 ### What's next?
 
+- [Take another GitHub Skills exercise](https://learn.github.com/skills).
 - Try adding a [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) file to your project to automatically assign reviewers to pull requests.
-- [Take another GitHub Skills exercise](https://skills.github.com).
 - [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
