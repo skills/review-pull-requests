@@ -9,7 +9,7 @@ A **pull request** is a collaboration area where work in one branch is reviewed 
 - **Conversation** - A general log of the pull request activity. It also provides an open space for fellow collaborators and the community to provide ideas, suggestions, and general feedback.
 - **Commits** - A list of only the commits unique to the proposed branch.
 - **Checks** - The results of any automations applied to the pull request using [GitHub Actions](https://github.com/features/actions). That's for another exercise, though. 😎
-- **Files Changed** - A [Diff](https://docs.github.com/en/get-started/quickstart/github-glossary#diff) view that easily shows the proposed changes in a before/after view. It also has options to add comments and reviews in context.
+- **Files Changed** - A [Diff](https://docs.github.com/en/get-started/learning-about-github/github-glossary#diff) view that easily shows the proposed changes in a before/after view. It also has options to add comments and reviews in context.
 
 > [!TIP]
 > You can [create a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for unfinished work. This can help avoid accidental merges or premature reviews.
