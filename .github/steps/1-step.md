@@ -1,7 +1,5 @@
 ## Step 1: Open a pull request
 
-_Welcome to "Review pull requests"! :wave:_
-
 Let's get started by opening a **pull request** on some changes that were recently added to the `update-game` branch.
 
 ### 📖 Theory: What is a pull request?
