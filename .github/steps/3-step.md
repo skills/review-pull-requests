@@ -56,3 +56,5 @@ The **Files changed** tab is the primary place for collecting feedback. It allow
    > 🪧 **Note:** You can't choose **Approve** or **Request changes** on your own pull request.
 
 1. With your review submitted, Mona will check your progress and share the next steps.
+
+   > ❗ **Caution:** Do not merge your pull request yet!
