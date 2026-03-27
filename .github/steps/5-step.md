@@ -1,10 +1,10 @@
-## Step 6: Merge your pull request
+## Step 5: Merge your pull request
 
 _Almost done!_ :heart:
 
 With our reviews collected and feedback implemented, it's time to merge the changes.
 
-### :keyboard: Activity: Merge your pull request
+### ⌨️ Activity: Merge your pull request
 
 1. In the pull request navigation, select the **Conversation** tab.
 

@@ -4,7 +4,7 @@ _Welcome to "Review pull requests"! :wave:_
 
 Let's get started by opening a **pull request** on some changes that were recently added to the `update-game` branch.
 
-### What is a pull request?
+### 📖 Theory: What is a pull request?
 
 A **pull request** is a collaboration area where work in one branch is reviewed before merging it into another branch. It has different tabs to manage the conversation and easily review changes.
 
@@ -16,7 +16,7 @@ A **pull request** is a collaboration area where work in one branch is reviewed 
 > [!TIP]
 > You can [create a draft pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) for unfinished work. This can help avoid accidental merges or premature reviews.
 
-### :keyboard: Activity: Create a pull request
+### ⌨️ Activity: Create a pull request
 
 1. Open this repository in a new browser tab so you can work on the steps while you read the instructions in this tab.
 

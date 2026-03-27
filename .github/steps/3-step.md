@@ -2,7 +2,7 @@
 
 _You assigned yourself! :tada:_
 
-#### What is a pull request review?
+### 📖 Theory: Pull request reviews
 
 A **pull request review** is feedback from other collaborators or community members on the proposed changes. It helps ensure quality and project momentum. Even more importantly, it's an awesome opportunity to learn more about the project and grow as a developer by seeing how others approach the problem.
 
@@ -35,7 +35,7 @@ The **Files changed** tab is the primary place for collecting feedback. It allow
 - Be concise _and_ provide meaningful detail.
 - Treat the pull request author with kindness and empathy.
 
-### :keyboard: Activity: Leave a review
+### ⌨️ Activity: Leave a review
 
 1. On the pull request, click the **Files changed** tab.
 
