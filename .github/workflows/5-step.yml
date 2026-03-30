@@ -18,7 +18,7 @@ env:
 jobs:
   find_exercise:
     name: Find Exercise Issue
-    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.5.0
+    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.9.1
 
   post_review_content:
     name: Post review content
@@ -29,36 +29,43 @@ jobs:
       github.head_ref == 'update-game' &&
       github.event.pull_request.merged == true
     env:
-      ISSUE_URL: ${{ needs.find_exercise.outputs.issue-url }}
+      ISSUE_REPOSITORY: ${{ github.repository }}
+      ISSUE_NUMBER: ${{ needs.find_exercise.outputs.issue-number }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+
+      - name: Get response templates
+        uses: actions/checkout@v6
+        with:
+          repository: skills/exercise-toolkit
+          path: exercise-toolkit
+          ref: v0.9.1
+
+      - name: Create comment - step finished - final review next
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: exercise-toolkit/markdown-templates/step-feedback/lesson-review.md
 
       - name: Create comment - add step content
-        run: |
-          gh issue comment "$ISSUE_URL" \
-            --body-file "$REVIEW_FILE"
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: ${{ env.REVIEW_FILE }}
+
+      - name: Disable current workflow
+        run: gh workflow disable "${{github.workflow}}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   finish_exercise:
     name: Finish Exercise
     needs: [find_exercise, post_review_content]
-    uses: skills/exercise-toolkit/.github/workflows/finish-exercise.yml@v0.5.0
+    uses: skills/exercise-toolkit/.github/workflows/finish-exercise.yml@v0.9.1
     with:
       issue-url: ${{ needs.find_exercise.outputs.issue-url }}
-
-  disable_workflow:
-    name: Disable this workflow
-    needs: [find_exercise, post_review_content]
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Disable current workflow
-        run: gh workflow disable "${{github.workflow}}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      exercise-title: "Review Pull Requests"

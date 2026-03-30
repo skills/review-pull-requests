@@ -2,7 +2,7 @@
 
 _You assigned yourself! :tada:_
 
-#### What is a pull request review?
+### 📖 Theory: Pull request reviews
 
 A **pull request review** is feedback from other collaborators or community members on the proposed changes. It helps ensure quality and project momentum. Even more importantly, it's an awesome opportunity to learn more about the project and grow as a developer by seeing how others approach the problem.
 
@@ -14,7 +14,7 @@ Naturally, the best way to get a review is to ask for one. By assigning a review
 
 The **Files changed** tab is the primary place for collecting feedback. It allows for adding comments directly to lines before submitting a review.
 
-### What does a review typically look like?
+#### What does a review typically look like?
 
 1. Reviewing the **title** and **description** are clear and concise. It should easily convey the intended changes and any associated issues.
 
@@ -35,7 +35,7 @@ The **Files changed** tab is the primary place for collecting feedback. It allow
 - Be concise _and_ provide meaningful detail.
 - Treat the pull request author with kindness and empathy.
 
-### :keyboard: Activity: Leave a review
+### ⌨️ Activity: Leave a review
 
 1. On the pull request, click the **Files changed** tab.
 
@@ -51,6 +51,10 @@ The **Files changed** tab is the primary place for collecting feedback. It allow
    Looks good to me. I think this is more intuitive. Nice work!
    ```
 
+   <img width="300" alt="Submit review button" src="../images/submit-review-button.png" />
+
    > 🪧 **Note:** You can't choose **Approve** or **Request changes** on your own pull request.
 
 1. With your review submitted, Mona will check your progress and share the next steps.
+
+   > ❗ **Caution:** Do not merge your pull request yet!

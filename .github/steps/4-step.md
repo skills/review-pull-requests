@@ -2,13 +2,14 @@
 
 _Nice work reviewing that pull request :sparkles:_
 
+
 While reviewing, it is very common to find simple changes that are easier to implement than to describe. For example, typos or rewording sentences. These are perfect situations for the **Add a suggestion** feature.
 
-### How do I suggest a change?
+### 📖 Theory: Suggested changes
 
 The **Add a suggestion** feature is a button in the comment text editor. It inserts a specially formatted code block. Instead of only showing a comment, GitHub will also provide a **Commit suggestion** button. This allows the author to accept the suggestion and commit it with the push of a button. No need to open a code editor! Nice!
 
-### :keyboard: Activity: Suggest changes
+### ⌨️ Activity: Suggest changes
 
 1. On the pull request, click **Files changed**.
 
@@ -31,7 +32,7 @@ The **Add a suggestion** feature is a button in the comment text editor. It inse
    Let's make it a bit more friendly. 🤓
    ````
 
-### :keyboard: Activity: Apply a suggested change
+### ⌨️ Activity: Apply a suggested change
 
 1. In the pull request navigation, select the **Conversation** tab.
 
