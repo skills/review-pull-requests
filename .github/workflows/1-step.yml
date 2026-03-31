@@ -38,6 +38,15 @@ jobs:
           path: exercise-toolkit
           ref: v0.9.1
 
+      - name: Create comment - step finished
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: exercise-toolkit/markdown-templates/step-feedback/step-finished-prepare-next-step.md
+          vars: |
+            next_step_number: 2
+
       - name: Create comment - add step content
         uses: GrantBirki/comment@v2.1.1
         with:
