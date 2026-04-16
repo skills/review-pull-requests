@@ -50,6 +50,6 @@ If the exercise isn't ready in 20 seconds:
 
 </details>
 
-adding something new here
+added a second note here
 
-second note line55
+changing main
